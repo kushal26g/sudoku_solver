@@ -99,7 +99,7 @@ int main() {
         columns[i] = h;
     }
 
-    // Create rows (729 possible placements) and link nodes
+    // Create rows (729 possible placements) & link nodes
     vector<Node*> row_heads(729);
     for (int r = 0; r < 9; ++r) {
         for (int c = 0; c < 9; ++c) {
